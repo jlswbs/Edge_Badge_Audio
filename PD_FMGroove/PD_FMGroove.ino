@@ -98,7 +98,7 @@ void loop() {
 
     rmsval = 30 * rms.read();
 
-    v[(WIDTH/2)][(HEIGHT/2)] = 1;
+    v[(WIDTH/2)][(HEIGHT/2)] = rmsval;
 
   }
 
