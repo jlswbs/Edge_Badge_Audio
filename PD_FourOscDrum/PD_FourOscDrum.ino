@@ -79,7 +79,9 @@ void loop() {
 
   if (rms.available()) {
 
-    if (cnt == 255) {
+    if (cnt == HEIGHT) {
+
+      cnt = 0;
 
       for (int y = 0; y < HEIGHT; y++){
 
